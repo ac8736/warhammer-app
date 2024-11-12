@@ -8,6 +8,7 @@ function Armory() {
     ["Choose an army below", "Ultramarines", "Necrons", "Blood Angels"],
   ];
   const [selectedArmy, setSelectedArmy] = useState<string>("");
+  console.log(selectedArmy);
 
   return (
     <>
@@ -21,7 +22,6 @@ function Armory() {
         <button>Create New Army</button>
         <button>Delete Current Army</button>
       </div>
-      <p>{selectedArmy !== "Choose an army below" && selectedArmy}</p>
       <div className="army-tracker-collection">
         <ArmyTracker />
         <ArmyTracker />
