@@ -1,0 +1,46 @@
+.hero-container {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.hero-container > h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.hero-container > p {
+  font-size: 25px;
+  width: 60%;
+  margin: auto;
+}
+
+.hero-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-button {
+  font-family: var(--font);
+  font-size: 22px;
+  padding: 0.2em;
+  width: 150px;
+  border-radius: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  margin: 30px;
+
+  transition-duration: 500ms;
+}
+
+.hero-button:hover {
+  cursor: pointer;
+  border: 3px solid rgb(223, 189, 0);
+}
+
+.hero-button:active {
+  background-color: rgb(170, 170, 170);
+}
+
+.blur-background {
+  filter: blur(5px);
+}

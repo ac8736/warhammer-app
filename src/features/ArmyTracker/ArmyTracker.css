@@ -1,0 +1,46 @@
+.army-tracker-container {
+  width: fit-content;
+  border-radius: 8px;
+  border: 1px solid white;
+  margin: 1em;
+}
+
+.army-tracker-info {
+  padding-left: 1em;
+  padding-bottom: 1em;
+  line-height: 20px;
+}
+
+.army-tracker-details-button {
+  display: flex;
+  justify-content: center;
+}
+
+.army-tracker-details-button > button {
+  font-family: var(--font);
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: #3c878f;
+  width: 70%;
+  cursor: pointer;
+}
+
+.army-tracker-details-button > button:hover {
+  background-color: #244f53;
+}
+
+.army-tracker-details-button > button:active {
+  background-color: #152d30;
+}
+
+.army-tracker-progress-container {
+  display: flex;
+  align-items: center;
+}
+
+.army-tracker-progress-wrapper {
+  width: 60%;
+  padding-left: 5px;
+}

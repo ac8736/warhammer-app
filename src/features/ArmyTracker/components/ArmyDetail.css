@@ -1,0 +1,19 @@
+.army-detail-container {
+  color: white;
+  margin: 1em 3em;
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+.army-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+
+.army-detail-text {
+  font-size: 25px;
+  padding: 10px;
+  margin: 0;
+}

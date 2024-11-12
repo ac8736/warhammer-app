@@ -1,0 +1,45 @@
+.army-select-container {
+  margin: auto;
+  width: 40%;
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.army-select-container > p {
+  font-size: 25px;
+}
+
+.armory-button-container {
+  margin: auto;
+  width: fit-content;
+}
+
+.armory-button-container > button {
+  font-family: var(--font);
+  font-size: 20px;
+  margin: 1em;
+  cursor: pointer;
+  padding: 0.5em;
+  border-radius: 10px;
+  border: 1px solid white;
+  transition-duration: 300ms;
+}
+
+.armory-button-container > button:hover {
+  background-color: rgb(155, 155, 155);
+  border: 1px solid rgb(155, 155, 155);
+}
+
+.armory-button-container > button:active {
+  background-color: rgb(75, 75, 75);
+  border: 1px solid rgb(75, 75, 75);
+}
+
+.army-tracker-collection {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}

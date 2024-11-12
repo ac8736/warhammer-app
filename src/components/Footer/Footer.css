@@ -1,0 +1,9 @@
+.footer-container {
+  width: 45%;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-container > p {
+  font-size: 26px;
+}

@@ -1,0 +1,15 @@
+dialog {
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  min-width: 50%;
+}
+
+.x-button {
+  background-color: black;
+  border: none;
+}
+
+.x-button:hover {
+  cursor: pointer;
+}

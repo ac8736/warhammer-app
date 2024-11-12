@@ -1,0 +1,47 @@
+.subsection-divider {
+  width: 80%;
+  margin: 80px auto 50px;
+}
+
+.subsection {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.subsection > a {
+  color: white;
+}
+
+.subsection > a:hover {
+  color: rgb(223, 189, 0);
+}
+
+.divider {
+  width: 80%;
+  margin: auto;
+}
+
+.divider-border {
+  border-bottom: 2px solid white;
+}
+
+.big-text {
+  font-weight: 300;
+  font-size: 65px;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.splash-image {
+  display: block;
+  width: 1100px;
+  margin: 100px auto;
+}
+
+.description {
+  font-size: 20px;
+  width: 80%;
+  margin: 100px auto;
+  margin-bottom: 0px;
+}
